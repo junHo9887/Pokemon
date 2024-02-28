@@ -1,0 +1,44 @@
+.Footer{
+  border: 1px solid #000;
+  height:160px;
+  background-color: #000;
+}
+.Footer a{
+  display: block;
+  width:300px;
+  height: 80px;
+  background-position: center;
+  background: url(../../public/image/Logo.png)no-repeat;
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: contain;
+}
+.Footer p{
+  margin-left: 100px;
+  color: #fff;
+}
+.Footer .inner{
+  position: relative;
+}
+.App .back1{
+  width: 400px;
+  height:203px;
+  position: absolute;
+  left: -20%;
+  z-index: -1;
+  bottom: 150%;
+  background-image: url(../../public/image/back1.png);
+  background-repeat: no-repeat;
+  background-position: center;
+}
+.App .back2{
+  width: 400px;
+  height:203px;
+  position: absolute;
+  z-index: -1;
+  right: -21%;
+  bottom: 150%;
+  background-image: url(../../public/image/back2.png);
+  background-repeat: no-repeat;
+  background-position: center;
+}

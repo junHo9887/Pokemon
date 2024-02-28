@@ -1,0 +1,48 @@
+.card{
+  background-color: #e6e9f3;
+  transform: translatey(56px);
+  margin: auto;
+  width: 80%;
+  height: 63%;
+  border: 2px solid #000;
+  display: grid;
+  overflow-x: hidden;
+  overflow-y: auto;
+  grid-template-columns: auto auto auto auto;
+}
+.card::-webkit-scrollbar {
+  width: 30px;/* 스크롤바 너비 */
+}
+.card::-webkit-scrollbar-track {
+  background: #fc4b4b; /* 스크롤바 트랙 배경색 */
+}
+.card::-webkit-scrollbar-thumb {
+  background:url(../../public/image/Ball.png)no-repeat;
+  background-position: center;
+  background-size: contain; /* 스크롤바 색상 */
+  height:20px;
+  border-radius: 100%; /* 스크롤바 모양 */
+}
+/* .card::-webkit-scrollbar-thumb:hover {
+} */
+.card a{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  border-radius: 10px;
+  text-align: center;
+  font-size: 16px;
+  font-weight: 600;
+  margin: 20px;
+  height: 250px;
+  text-decoration: none;
+  background-color: #fff;
+}
+.card a:hover{
+  box-shadow: 3px 3px 5px;
+  transition: 0.3s;
+}
+.card a #p{
+  width: 120px;
+}

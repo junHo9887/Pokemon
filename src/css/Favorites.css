@@ -1,0 +1,58 @@
+.Favorites{
+  height: 1400px;
+  background-image: url(../../public/image/Subback.jpg);
+}
+.Favorites .F_wrap{
+  width: 1300px;
+  margin: auto;
+  height: 80%;
+  border-radius: 70px;
+  overflow: hidden;
+  box-shadow: 3px 3px 5px gray;
+}
+.Favorites .F_wrap .F1{
+  position: relative;
+  height: 10%;
+  background-color: #414141;
+}
+.Favorites .F_wrap .F1 p{
+  font-size: 30px;
+  left: 5%;
+  top: 10px;
+  color: #fff;
+  position: absolute;
+}
+.Favorites .F_wrap .F2{
+  overflow: scroll;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: start;
+  background-color: #FFF1D5;
+  height: 90%;
+}
+.Favorites .clicked-pokemon:nth-child(4n - 3) {
+  margin-left: 55px;
+}
+.Favorites .clicked-pokemon{
+  line-height:0.5;
+  flex-direction: column;
+  display: flex;
+  justify-content: center;
+  margin: 30px 20px;
+  width: 260px;
+  height: 430px;
+  background-color: #fff;
+  border: 1px solid #000;
+}
+.Favorites .F_wrap .F2::-webkit-scrollbar {
+  display: none;
+}
+
+.Favorites .clicked-pokemon p{
+  padding-left: 50px;
+}
+.Favorites .clicked-pokemon img{
+  margin: 0 auto;
+  margin-bottom: 30px;
+  width: 60%;
+}

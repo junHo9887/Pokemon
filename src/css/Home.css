@@ -1,0 +1,8 @@
+.Home{
+  border: 1px solid #000;
+  height: 1300px;
+  width: 100%;
+}
+.Home .inner{
+  flex-direction: column;
+}

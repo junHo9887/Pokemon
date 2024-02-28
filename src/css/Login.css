@@ -1,0 +1,74 @@
+.Login{
+  height: 1000px;
+}
+.Login .logo{
+  background: url(../../public/image/Logo.png)no-repeat;
+  width: 400px;
+  height: 100px;
+  background-position: center;
+  background-size: contain;
+}
+.Login .inner{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  font-size: 30px;
+  font-weight: 700;
+}
+.Login .inner p{
+  margin-bottom: 50px;
+}
+.Login form{
+  width: 400px;
+  height: 250px;
+  display: flex;
+  justify-content: space-between;
+  flex-direction: column;
+  align-items: center;
+}
+.Login button{
+  cursor: pointer;
+  background-color: #000;
+  transform: skew(-30deg);
+  width: 430px;
+  height: 70px;
+}
+.Login button p{
+  transform: skew(30deg);
+  font-weight: 600;
+  color: #fff;
+  font-size: 18px;
+}
+.Login input {
+  padding-left: 30px;
+  font-size: 20px;
+  height: 60px;
+  width: inherit;
+}
+.Login input:focus {outline:2px solid #5fb0fc;}
+.Login .inner a{
+  position: relative;
+  margin-top: 30px;
+  background-color: #fff;
+  border-radius: 100px;
+  text-align: center;
+  height: 55px;
+  box-shadow: 3px 3px 5px gray;
+  width:280px;
+  text-decoration: none;
+}
+.Login .inner a:hover{
+  transition: 0.3s;
+  box-shadow: 1px 1px 1px pink;
+}
+.Login .inner  a p::after{
+  right: 20px;
+  top: 25%;
+  position: absolute;
+  content: '';
+  background: url(../../public/image/Vector.png)no-repeat;
+  background-position: center;
+  display: block;
+  width: 20px;
+  height: 30px;
+}
