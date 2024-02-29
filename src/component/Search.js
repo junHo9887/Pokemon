@@ -19,7 +19,7 @@ function Search() {
           placeholder="포켓몬을 입력하세요"
           value={SearchQuery}
           onChange={(e) => setSearchQuery(e.target.value)}/>
-          <div onClick={handleSearchClick}/>
+          <div onClick={handleSearchClick}><img src='./image/Search.png'></img></div>
     </div>
   );
 }

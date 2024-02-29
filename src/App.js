@@ -6,6 +6,7 @@ import Favorites from './component/Favorites';
 import Login from './component/Login';
 import Join from './component/Join';
 import Sub from './component/Sub';
+import './css/App.css'
 
 function App() {
   return (

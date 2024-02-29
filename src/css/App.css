@@ -1,0 +1,6 @@
+@import url('https://webfontworld.github.io/NanumSquareRound/NanumSquareRound.css');
+@import url('https://webfontworld.github.io/Montserrat/Montserrat.css');
+
+body {
+  font-family: 'NanumSquareRound', sans-serif; /* 나눔스퀘어라운드 폰트 사용 */
+}

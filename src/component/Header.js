@@ -26,19 +26,15 @@ function Header() {
           <p>포켓몬도감</p>
         </Link>
         {isLoggedIn ? (
-          <div>
             <Link to="/login.js" onClick={handleLogout}>
               <img src='../image/Login.png' alt="로그아웃"></img>
               <p>로그아웃</p>
             </Link>
-          </div>
         ) : (
-          <div>
             <Link to="/login.js">
               <img src='../image/Login.png' alt="로그인"></img>
               <p>로그인</p>
             </Link>
-          </div>
         )}
         <Link to="/favorites.js">
           <img src='../image/Heart.png' alt="즐겨찾기"></img>

@@ -1,28 +1,47 @@
 .Search{
-  transform: translate(-31px,150px);
+  transform: translate(-31px,100px);
   width: 70%;
-  height: 67px;
+  height: 60px;
   position: relative;
 }
 .Search input{
-  border-radius: 50px;
+  width: 97%;
+  border: none;
+  border-bottom: 1px solid;
   padding-left: 30px;
-  width: 100%;
-  box-shadow: 3px 3px 5px #fc4b4b;
   height: 100%;
   font-weight: 600;
-  font-size: 16px;
+  font-size:20px;
 }
-input:focus {outline:1px solid #fc4b4b;
-border: none;}
+input:focus {
+  outline:1px solid #000;
+  border: none;
+}
 .Search div{
+  display: flex;
+  justify-content: center;
+  align-items: center;
   cursor: pointer;
-  width: 30px;
-  height: 30px;
-  position: absolute;
-  background: url(../../public/image/Search.png)no-repeat;
-  background-position: center;
+  width: 50px;
+  background: url(../../public/image/Subtract.png)no-repeat;
+  height: 60px;
   background-size: cover;
-  top: 20px;
-  right: 5px;
+  position: absolute;
+  top: 0px;
+  right: -70px;
+}
+.Search div::after{
+  top: 0;
+  left: 0px;
+  width: 12px;
+  height: 13px;
+ 
+  background-size: contain;
+  transform: none;
+}
+
+.Search div img{
+  width: 60%;
+  height: 50%;
+  filter: invert(100);
 }

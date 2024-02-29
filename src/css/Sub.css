@@ -1,6 +1,5 @@
 .Sub{
   height: 1000px;
-  border: 1px solid #000;
 }
 .Sub .inner{
   width: 70%;
@@ -16,10 +15,10 @@
   display: flex;
   align-items: center;
   justify-content: center;
-  border-radius: 50px;
-  margin: auto;
+  border-radius: 20px;
+  margin:200px auto;
   max-width: 1350px;
-  height: 45%;
+  height: 42%;
   padding-left: 60px;
   padding-right: 60px;
 }
@@ -38,6 +37,10 @@
   cursor: pointer;
   border: none;
 }
+.Sub .inner .card2 .c2 h2{
+  font-weight: 800;
+  margin: 0;
+}
 .Sub .inner .card2 .c2 div{
   top: 6%;
   right: 3%;
@@ -47,6 +50,8 @@
 }
 .Sub .inner .card2 .c2 div::before{
   font-weight: 700;
+  text-align: center;
+  line-height: 1.6;
   content: '즐겨찾기 등록';
   position: absolute;
   top: 0;
@@ -61,8 +66,9 @@
   text-shadow: 2px 2px 2px #000000;
   text-align: center;
   padding: 10px 25px ;
-  margin-bottom: 20px;
-  display: inline;
-  height: 40px;
-  border-radius: 30px;
+  margin-bottom:0;
+  display: inline-block;
+  height: 25px;
+  border-radius: 10px;
+  line-height: 1.6;
 }

@@ -1,11 +1,10 @@
 .card{
   background-color: #e6e9f3;
   transform: translatey(56px);
-  margin: auto;
   width: 80%;
-  height: 63%;
-  border: 2px solid #000;
+  height: 70%;
   display: grid;
+  margin: 140px auto;
   overflow-x: hidden;
   overflow-y: auto;
   grid-template-columns: auto auto auto auto;

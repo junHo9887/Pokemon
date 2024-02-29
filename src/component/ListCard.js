@@ -34,9 +34,6 @@ const ListCard = () => {
     <div className='card'>
       {pokemonList.map((pokemon, index) => {
         const p_color = {
-          borderWidth: '1px',
-          borderStyle: 'solid',
-          borderColor: pokemon.color,
         };
 
         return (
