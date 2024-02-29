@@ -55,7 +55,7 @@ npm install axios
 npm react-redux
 
 <h2>피그마 링크</h2>
-[[https://www.figma.com/file/6O4uJGLQ6GSVRWIMvI1ZLe/Untitled?type=design&node-id=0-1&mode=design&t=kBOIIyrzpJ0c2z63-0](https://www.figma.com/file/KXkS7nHs7l0fUHIhvYqQDX/api?type=design&node-id=0-1&mode=design&t=trfOe8mG0OG1jtUB-0)](https://www.figma.com/file/KXkS7nHs7l0fUHIhvYqQDX/api?type=design&node-id=0-1&mode=design&t=trfOe8mG0OG1jtUB-0)
+https://www.figma.com/file/KXkS7nHs7l0fUHIhvYqQDX/api?type=design&node-id=0-1&mode=design&t=trfOe8mG0OG1jtUB-0
 
 <h2>바로가기</h2>
 https://pokemonapi12.netlify.app/
